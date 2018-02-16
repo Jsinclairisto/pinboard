@@ -6,6 +6,8 @@ git_source(:github) do |repo_name|
 end
 
 gem 'devise', '~> 4.4', '>= 4.4.1'
+gem 'paperclip', '~> 5.2', '>= 5.2.1'
+gem 'mini_magick', '~> 4.8'
 gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'simple_form', '~> 3.5'
