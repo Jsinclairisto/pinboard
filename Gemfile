@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/Estuardo2015/pinboard.git"
 end
 
+gem 'masonry-rails', '~> 0.2.4'
 gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'paperclip', '~> 5.2', '>= 5.2.1'
 gem 'mini_magick', '~> 4.8'
